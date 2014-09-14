@@ -20,7 +20,7 @@ exports.livenet = {
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
     timestamp: 1405483400,
-    bits: 1e0ffff0,
+    bits: 504365040,
   },
   dnsSeeds: [
     'stella.hopto.org',
