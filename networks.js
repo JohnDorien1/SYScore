@@ -6,29 +6,28 @@ var hex = function(hex) {
 
 exports.livenet = {
   name: 'livenet',
-  magic: hex('f9beb4d9'),
+  magic: hex('dcececdc'),
   addressVersion: 0x00,
   privKeyVersion: 128,
   P2SHVersion: 5,
   hkeyPublicVersion: 0x0488b21e,
   hkeyPrivateVersion: 0x0488ade4,
   genesisBlock: {
-    hash: hex('6FE28C0AB6F1B372C1A6A246AE63F74F931E8365E15A089C68D6190000000000'),
-    merkle_root: hex('3BA3EDFD7A7B12B27AC72C3E67768F617FC81BC3888A51323A9FB8AA4B1E5E4A'),
+    hash: hex('c84c8d0f52a7418b28a24e7b5354d6febed47c8cc33b3fa20fdbe4b3a1fcd9c4'),
+    merkle_root: hex('45eef7a7ed92208bcb532a58c3048bc38a299f9edfd8b48b677cabf4370274c9'),
     height: 0,
-    nonce: 2083236893,
+    nonce: 1157535,
     version: 1,
     prev_hash: buffertools.fill(new Buffer(32), 0),
-    timestamp: 1231006505,
-    bits: 486604799,
+    timestamp: 1405483400,
+    bits: 1e0ffff0,
   },
   dnsSeeds: [
-    'seed.bitcoin.sipa.be',
-    'dnsseed.bluematt.me',
-    'dnsseed.bitcoin.dashjr.org',
-    'seed.bitcoinstats.com',
-    'seed.bitnodes.io',
-    'bitseed.xf2.org'
+    'stella.hopto.org',
+    'syscoin.selfip.com',
+    'dnsseed.syscoin.org',
+    'node.syscoin.me',
+    'dnsseed.syscoin.me'
   ],
   defaultClientPort: 8333
 };
